@@ -4,6 +4,8 @@ I built this project to understand how a digital content library changes over ti
 
 The project follows a business-analysis approach: define the business questions, translate them into measurable KPIs, organise the data for analysis, and present the results in an interactive dashboard.
 
+**Project files:** [Open the Power BI report](./Visuilization.pbix) · [Review the Excel workbook](./Content_Data.xlsx) · [View the original CSV](./Content_Data_original.csv) · [Business problem document](./Business_Problem.docx)
+
 > **Project status:** The repository includes the original CSV, Excel workbook and Power BI report. Their presence is verified, but the workbook calculations, Power Query steps and internal PBIX model have not yet been independently inspected. Exact numerical findings therefore remain unverified. See [Project Status & Reproducibility](docs/PROJECT_STATUS.md).
 
 ---
