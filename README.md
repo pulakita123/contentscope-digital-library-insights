@@ -116,7 +116,8 @@ The exact relationship cardinalities and filter directions must be checked in th
 | [Key Findings](docs/KEY_FINDINGS.md) | Findings, interpretation and evidence status |
 | [Requirements & KPI Mapping](docs/REQUIREMENTS_AND_KPIS.md) | Traceability from business questions to metrics and visuals |
 | [Limitations & Next Steps](docs/LIMITATIONS_AND_NEXT_STEPS.md) | What the dataset can and cannot establish |
-| [Project Status](docs/PROJECT_STATUS.md) | Files currently available and what is needed for reproducibility |\n| [Project Report](docs/PROJECT_REPORT.md) | A readable end-to-end business analysis report in first person |
+| [Project Status](docs/PROJECT_STATUS.md) | Files currently available and what is needed for reproducibility |
+| [Project Report](docs/PROJECT_REPORT.md) | A readable end-to-end business analysis report in first person |
 
 ## How to reproduce the project
 
