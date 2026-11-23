@@ -4,7 +4,7 @@ I built this project to understand how a digital content library changes over ti
 
 The project follows a business-analysis approach: define the business questions, translate them into measurable KPIs, organise the data for analysis, and present the results in an interactive dashboard.
 
-> **Project status:** The README and supporting analysis documentation are available here. The connected repository review did not expose the source dataset or Power BI report file, so I have not invented exact numerical findings or claimed that the report is reproducible from this repository yet. See [Project Status & Reproducibility](docs/PROJECT_STATUS.md).
+> **Project status:** The repository includes the original CSV, Excel workbook and Power BI report. Their presence is verified, but the workbook calculations, Power Query steps and internal PBIX model have not yet been independently inspected. Exact numerical findings therefore remain unverified. See [Project Status & Reproducibility](docs/PROJECT_STATUS.md).
 
 ---
 
@@ -121,13 +121,13 @@ The exact relationship cardinalities and filter directions must be checked in th
 
 ## How to reproduce the project
 
-The source data and Power BI file were not available through the repository files that could be retrieved during this review. I have therefore not included made-up download steps, table names or DAX formulas.
+The source files are present in the repository as `Content_Data_original.csv`, `Content_Data.xlsx` and `Visuilization.pbix`. The internal workbook and Power BI model have not yet been independently inspected, so I have not invented table names, DAX formulas or numerical results.
 
 To make this project fully reproducible, the repository still needs:
-1. the source dataset or a reliable source link and its usage terms;
-2. the Power BI `.pbix` file;
-3. a clear folder structure for data, report and documentation;
-4. the actual DAX measures and relationship definitions; and
+1. confirmation of the original dataset source and usage terms;
+2. inspection and documentation of the existing Power BI `.pbix` file;
+3. the actual DAX measures and relationship definitions;
+4. documented Power Query preparation steps; and
 5. a checked set of numerical findings.
 
 Once those assets are present, the setup instructions can be completed and tested by another person.
