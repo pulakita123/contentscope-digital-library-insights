@@ -1,4 +1,4 @@
-# Digital Content Library Analysis | Power BI & Business Analysis
+# ContentScope: Digital Library & Catalogue Insights | Power BI
 
 I built this project to understand how a digital content library changes over time. Instead of looking only at the total number of titles, I wanted to explore what was being added, how the mix of movies and series was changing, and how content contributions differed by country and genre.
 
