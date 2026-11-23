@@ -30,7 +30,7 @@ The project description identifies title, content type, rating, release year and
 
 For that reason, the intended model separates the core title information from Country and Genre dimensions. Bridge tables connect a title to its countries and genres. This structure is more reliable than treating a comma-separated list as a single value.
 
-Before publishing a final reproducible version, the source file needs to be restored and checked for duplicate title IDs, missing dates, inconsistent content-type labels, blank ratings, duplicate bridge pairs and unmatched keys.
+The source CSV and Excel workbook are present in the repository. They still need to be inspected for duplicate title IDs, missing dates, inconsistent content-type labels, blank ratings, duplicate bridge pairs and unmatched keys.
 
 ## 6. Analysis approach
 
@@ -70,14 +70,14 @@ The described metadata supports catalogue and content-mix analysis. It does not 
 - revenue or licensing cost; or
 - return on content investment.
 
-The repository review also did not expose the original dataset or PBIX file, so exact numeric results and the internal Power BI implementation remain to be verified.
+The repository contains the original CSV, Excel workbook and PBIX file. Their presence is confirmed, but the exact numeric results and internal Power BI implementation remain to be verified.
 
 ## 10. Recommendations and future work
 
 If I were extending this project, I would:
-- restore and document the original source dataset;
-- validate all headline KPIs independently;
-- include the Power BI file and document its DAX measures;
+- confirm and document the original source dataset and its licence;
+- inspect the existing workbook and validate all headline KPIs independently;
+- document the Power BI model, visuals and DAX measures;
 - add viewership and completion data to compare content supply with audience demand;
 - add licensing costs and revenue to analyse content economics; and
 - create a title-level drill-through view for more detailed exploration.
