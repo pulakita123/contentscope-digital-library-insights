@@ -2,9 +2,15 @@
 
 ## What was available during this repository review
 
-The GitHub integration returned the repository's README, including one embedded dashboard preview and the original project description.
+The repository root listing confirms that the following project assets are present:
 
-Attempts to retrieve likely source-data and PBIX filenames did not return those files. This does not prove that no assets exist under any other filename or directory; it means I could not verify or inspect them through the available file retrieval.
+- `Content_Data_original.csv` — original CSV dataset
+- `Content_Data.xlsx` — Excel workbook
+- `Visuilization.pbix` — Power BI report file
+- `Business_Problem.docx` — business problem document
+- README and supporting documentation
+
+The files' presence is verified. However, the connected review did not inspect the internal workbook calculations, Power Query steps or PBIX model, so their implementation and exact numerical outputs remain to be validated.
 
 ## What has been documented
 
@@ -20,9 +26,9 @@ Attempts to retrieve likely source-data and PBIX filenames did not return those 
 
 | Asset | Why it is needed |
 |---|---|
-| Original source dataset or source link | Verify exact counts and calculations |
+| Original dataset source and licence/terms | Confirm attribution and redistribution permissions |
 | Dataset source and licence/terms | Attribute the data correctly and confirm redistribution permissions |
-| Power BI PBIX | Inspect relationships, measures, visuals and slicers |
+| Power BI PBIX (present) | Inspect relationships, measures, visuals and slicers |
 | Exact DAX measures | Let reviewers understand the KPI logic |
 | Data preparation steps or Power Query notes | Explain how raw fields become model tables |
 | Verified numeric findings | Support quantified business conclusions |
