@@ -1,4 +1,4 @@
-# Digital Content Library Analysis — Project Report
+# ContentScope: Digital Library & Catalogue Insights — Project Report
 
 ## 1. Introduction
 
