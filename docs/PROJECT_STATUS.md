@@ -27,7 +27,6 @@ The files' presence is verified. However, the connected review did not inspect t
 | Asset | Why it is needed |
 |---|---|
 | Original dataset source and licence/terms | Confirm attribution and redistribution permissions |
-| Dataset source and licence/terms | Attribute the data correctly and confirm redistribution permissions |
 | Power BI PBIX (present) | Inspect relationships, measures, visuals and slicers |
 | Exact DAX measures | Let reviewers understand the KPI logic |
 | Data preparation steps or Power Query notes | Explain how raw fields become model tables |
@@ -36,4 +35,4 @@ The files' presence is verified. However, the connected review did not inspect t
 
 ## Important note
 
-The documentation deliberately avoids inventing dataset provenance, exact numeric results, DAX code or a PBIX filename. Once the original assets are added, update this status document and complete the validation steps in [Methodology](METHODOLOGY.md).
+The documentation deliberately avoids inventing dataset provenance, exact numeric results or DAX code. The source assets are already present; the next step is to inspect them, validate the measures and complete the checks in [Methodology](METHODOLOGY.md).
